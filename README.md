@@ -4,7 +4,9 @@ Dungeons and Discords bot for Discord - A simple roleplaying bot.
 To get started, you will need Node.js Installed, and a project folder to start.
 
 npm install discord.js --save
+
 npm install discord.js-commando --save
+
 npm install mysql --save
 
 Once your packages are installed into your project folder, you can open and edit main.js
