@@ -64,7 +64,7 @@ bot.on("message", (message) => {
         else if(message.content === prefix + 'buy') {
             var isGameCommand = 'yes';
             var umid = message.author.id.toString() + message.content + isGameCommand;
-            message.channel.sendMessage(umid);
+            message.channel.sendMessage('currently undefined');
         }
         //new player registration command.
         //this section is not complete yet, and must be fully linked to the database
