@@ -54,7 +54,7 @@ bot.on('ready', () => {
 //MESSAGE FUNCTIONS
 bot.on("message", (message) => {
     if(message.author.bot) return;
-        else if(message.channel.id != 1234567890/*channelId*/) return;//this is the bot testing channel for saints live discord.
+        else if(message.channel.id != 1234567890/*channelId*/) return;//this is the bot testing channel for your preferred channel.
         else if(message.content === prefix + 'ping') {
             var isGameCommand = 'no';
             var umid = message.author.id.toString() + message.content + isGameCommand;
@@ -67,13 +67,15 @@ bot.on("message", (message) => {
             message.channel.sendMessage(umid);
         }
         //new player registration command.
+        //this section is not complete yet, and must be fully linked to the database
+        //best to comment it all out unless you know what to do to handle it.
         else if(message.content === prefix + 'register') {
-            connection.query('INSERT INTO tablename SET ?', {ColumnName: 'user.id'}, function (error, results, fields) {
+            connection.query('INSERT INTO tablename SET ?', {ColumnName: message.author.id}, function (error, results, fields) {
                 if (error) throw error;
                 console.log(results.insertId);
             });
             message.channel.sendMessage('undefined')
-            //check database to see if player exists, if already exist, use return;
+            //add check database to see if player exists, if already exist, use return;
         }
         else if(message.content === prefix + 'go') {
             var isGameCommand = 'yes';
@@ -125,6 +127,7 @@ bot.on("message", (message) => {
             var isGameCommand = 'no';
             message.channel.sendMessage('DnDBot is used by ' + bot.guilds.size + ' servers! :D');
             console.log(message.author.username + ' called //servers')
+            //this console log is not permanent
         }
         else if(message.content === prefix + "dStats") {
             var isGameCommand = 'yes';
