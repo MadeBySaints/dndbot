@@ -17,11 +17,14 @@ Once these packages are installed into your project folder, you can open and edi
 this is the main bot file.
 
 
-Documentation for the discord.js package can be found at - https://discord.js.org/#/docs/main/stable/general/welcome
+Documentation for the discord.js package can be found at - 
+https://discord.js.org/#/docs/main/stable/general/welcome
 
-Documentation for the commando package can be found at - https://discord.js.org/#/docs/commando/master/general/welcome
+Documentation for the commando package can be found at - 
+https://discord.js.org/#/docs/commando/master/general/welcome
 
-Documentation for the mysql package can be found at - https://www.npmjs.com/package/mysql
+Documentation for the mysql package can be found at - 
+https://www.npmjs.com/package/mysql
 
 
 This bot is premade to be deployed by anyone who can run a MySQL server backend.
