@@ -17,10 +17,11 @@ Once these packages are installed into your project folder, you can open and edi
 this is the main bot file.
 
 
-Documentation for the discord.js package can be found at - 
+Documentation for the discord.js package can be found at -
+
 https://discord.js.org/#/docs/main/stable/general/welcome
 
-Documentation for the commando package can be found at - 
+Documentation for the commando package can be found at -
 https://discord.js.org/#/docs/commando/master/general/welcome
 
 Documentation for the mysql package can be found at - 
