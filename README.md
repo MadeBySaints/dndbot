@@ -22,9 +22,11 @@ Documentation for the discord.js package can be found at -
 https://discord.js.org/#/docs/main/stable/general/welcome
 
 Documentation for the commando package can be found at -
+
 https://discord.js.org/#/docs/commando/master/general/welcome
 
 Documentation for the mysql package can be found at - 
+
 https://www.npmjs.com/package/mysql
 
 
