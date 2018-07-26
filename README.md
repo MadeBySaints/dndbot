@@ -41,4 +41,4 @@ Server Query Language will not be covered here. There are many online resources 
 
 
 There are not many features as of right now, but this is just a building platform for others to create and share ideas.
-feel free to fork, pull request etc. We want the community to help build the bot. If you would like to join the official home of dndbot, feel free to become a part of our Discord Server, https://discord.gg/rkyjZvS and watch the development of dndbot as it comes to life!!
+feel free to fork, pull request etc. We want the community to help build the bot. If you would like to join the official home of dndbot, feel free to become a part of our Discord Server, https://discord.gg/rkyjZvS.
